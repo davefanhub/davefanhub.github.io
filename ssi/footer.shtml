@@ -1,0 +1,10 @@
+	<footer class="footer">
+		<div class="container">
+			<a class="footer-logo" href="#">
+				<img src="css/images/logo-dark.jpg" alt="" width="120" height="120">
+			</a>
+		</div>
+	</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>

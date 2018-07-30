@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--#include virtual="head.shtml" -->
+<body>
+<div class="wrapper">
+	<div class="wrapper-inner">
+<!-- 		<header class="header">
+      <div class="container">
+        <a class="header-logo" href="#">
+          <img src="css/images/logo-dark.jpg" alt="" width="120" height="120">
+        </a>
+      </div>
+		</header> -->
+    <!-- /.header -->
+
+
