@@ -23,7 +23,8 @@ function populateFields () {
   var destinationStation = getParameterByName('to');
   var outwardDate = getParameterByName('depart');
   var returnDate = getParameterByName('return');
-  console.log(returnDate);
+  var outwardTime = getParameterByName('departTime');
+  var returnTime = getParameterByName('returnTime');
 
   if (returnDate) {
     setTimeout(function () {
@@ -31,12 +32,13 @@ function populateFields () {
     }, 500);
   }
 
-  $('#field-from').val(originStation);
-  $('#field-to').val(destinationStation);
-
   setTimeout(function () {
+    $('#field-from').val(originStation);
+    $('#field-to').val(destinationStation);
     $('#field-outward').val(outwardDate);
     $('#field-return').val(returnDate);
+    $('#field-departure-time').val(outwardTime);
+    $('#field-return-time').val(returnTime);
   }, 0);
 }
 

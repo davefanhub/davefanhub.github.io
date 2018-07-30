@@ -1,5 +1,5 @@
 {
-  "name": "gulp",
+  "name": "Hipertec-task-runner-less",
   "version": "2.0.0",
   "description": "2create task runner less",
   "dependencies": {},
@@ -27,14 +27,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hipertec",
-  "license": "MIT",
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davefanhub/davefanhub.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/davefanhub/davefanhub.github.io/issues"
-  },
-  "homepage": "https://github.com/davefanhub/davefanhub.github.io#readme"
+  "license": "MIT"
 }
